@@ -90,7 +90,7 @@
     //Переменные игры
     var gameState = LOADING;
     var score = 0;
-    var scoreNeededToWin = 60;
+    var scoreNeededToWin = 100000000;
     var alienFrequency = 100;
     var alienTimer = 0;
     var sprites = [];
