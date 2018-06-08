@@ -21,7 +21,7 @@
 #title span {
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: black;
 }
 
 @keyframes animStar {
@@ -35,7 +35,7 @@
 
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, grey 0%, white 100%);
   overflow: hidden;
 }
 
@@ -79,7 +79,7 @@ button:active {
 .message {
   user-select: none;
   font-family: 'Emulogic';
-  color: white;
+  color: black;
   text-align: center;
 }
 
