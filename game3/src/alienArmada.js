@@ -78,7 +78,7 @@
       setStarCollectionSpeed(1, 5)
       setStarCollectionSpeed(2, 2)
       mainMenuMusic.pause()
-      gameMusic.volume = 0.3
+      gameMusic.volume = 0.18
       gameMusic.play()
     })
     //Направления движения орудия
@@ -167,7 +167,7 @@
                 loadHandler, false);
             //Воспроизведение музыкального файла music
             mainMenuMusic.play();
-            mainMenuMusic.volume = 0.8;
+            mainMenuMusic.volume = 0.7;
         }
         window.onresize = resizeCanvasAndPlaceCannon
         resizeCanvasAndPlaceCannon()
